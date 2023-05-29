@@ -14,8 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('buildcode');
 });
 
-use App\Http\Controllers\DataViewController;
-Route::get('/task22', [DataViewController::class, 'show']);
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
