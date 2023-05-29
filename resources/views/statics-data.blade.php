@@ -28,7 +28,7 @@
                     <th scope="col">#</th>
                     <th scope="col">Email</th>
                     <th scope="col">Name</th>
-                    <th scope="col">Role</th>
+                    <th scope="col">NIM</th>
                     <th scope="col">Avatar</th>
                     <th scope="col">Address</th>
                 </tr>

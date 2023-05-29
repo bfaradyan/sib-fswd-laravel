@@ -10,6 +10,6 @@ class DataViewController extends Controller
     //
     public function show(): View
     {
-        return view('statics-data');
+        return view('buildcode');
     }
 }
